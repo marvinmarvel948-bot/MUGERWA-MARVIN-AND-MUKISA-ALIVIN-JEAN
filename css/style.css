@@ -1392,6 +1392,6 @@ html[data-theme="dark"] .staff-table tfoot td {
   background: #142238;
 }
 @media(max-width:768px){
-   nav ul{ flex-direction:column;}
+   nav ul{ flex-direction:row;}
    nav a{ display:block; padding:10px}
 }
