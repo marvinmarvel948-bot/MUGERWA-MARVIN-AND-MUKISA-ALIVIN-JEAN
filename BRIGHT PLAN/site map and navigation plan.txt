@@ -1,0 +1,46 @@
+ Bright High School Luwero — Site Map & Navigation Plan
+1. Site Map 
+The website consists of 10 primary pages. The structure is flat (all main pages are just one click away from the Home page) to ensure users can easily find information without digging through multiple sub-menus.
+
+🏠 Home (index.html)
+│
+├──  About Us (about.html)
+│   ├── Our Story (#story)
+│   ├── Mission & Vision (#mission)
+│   ├── Core Values (#values)
+│   └── Staff Directory (#staff)
+│
+├──  Programmes (services.html)
+│   ├── Overview (#overview)
+│   ├── Full Programme Table (#full-table)
+│   └── Choosing Your Path (#choosing)
+│
+├──  Academics (academics.html)
+│   ├── Elementary School (#elementary)
+│   ├── High School (#high)
+│   ├── Our Approach (#approach)
+│   └── Results (#results)
+│
+├── Admissions (admissions.html)
+│   ├── How to Apply (#steps)
+│   ├── Entry Requirements (#requirements)
+│   ├── Fees Structure (#fees)
+│   ├── Key Dates & Intakes (#dates)
+│   ├── Apply Online Form (#apply)
+│   └── Admissions FAQ (#faq)
+│
+├──  Student Life (student-life.html)
+│   ├── Sports (#sports)
+│   ├── Clubs & Societies (#clubs)
+│   ├── Boarding (#boarding)
+│   └── Community (#community)
+│
+├──  Gallery (gallery.html)
+│
+├── Media (media.html)
+│
+├──  FAQ (faq.html)
+│
+└──  Contact Us (contact.html)
+    ├── Contact Details & Form
+    └── Location Map

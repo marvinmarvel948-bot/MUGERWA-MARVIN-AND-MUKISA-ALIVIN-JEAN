@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Bright High School Luwero</title>
+  <meta name="description" content=" Contact Bright High School Luwero — visit, call, or send us a message.">
+  <meta name="theme-color" content="#1e4b8f">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+  <div class="topbar">
+    <div class="container">
+      <span>Luwero District, Uganda • Mon–Fri 8:00–17:00</span>
+      <span>
+        <a href="tel:+256755630074">+256 755 630074</a> •
+        <a href="mailto:info@brighthighluwero.ac.ug">info@brighthighluwero.ac.ug</a>
+      </span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand__mark">B</span>
+        Bright High School
+        <span>Luwero</span>
+      </a>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Programmes</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="student-life.html">Student Life</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav__cta">
+        <a class="btn btn--outline btn--sm" href="contact.html">Visit Us</a>
+        <a class="btn btn--primary btn--sm" href="admissions.html">Apply Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-banner">
+      <div class="container">
+        <nav aria-label="Breadcrumb">
+          <a href="index.html">Home</a> <span>/</span> Contact Us
+        </nav>
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you — visit, call, or send us a message.</p>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="container">
+
+        <div class="section-head">
+          <span class="kicker">Get in Touch</span>
+          <h2>How to reach us</h2>
+          <p>
+            Our office is open Monday to Friday, 8:00 AM – 5:00 PM,
+            and Saturday mornings during intake season.
+          </p>
+        </div>
+
+        <div class="card-grid">
+
+          <article class="card">
+            <h3>School Office</h3>
+
+            <p>
+              <b>Address</b><br>
+              Plot 14, Kampala–Gulu Road,<br>
+              Luwero District, Uganda
+            </p>
+
+            <p>
+              <b>Phone</b><br>
+              <a href="tel:+256755630074">+256 755 630074</a><br>
+              <a href="tel:+256780000000">+256 780 000 000</a>
+            </p>
+
+            <p>
+              <b>General Email</b><br>
+              <a href="mailto:info@brighthighluwero.ac.ug">info@brighthighluwero.ac.ug</a>
+            </p>
+
+            <p>
+              <b>Admissions Email</b><br>
+              <a href="mailto:admissions@brighthighluwero.ac.ug">admissions@brighthighluwero.ac.ug</a>
+            </p>
+
+            <p>
+              <b>Office Hours</b><br>
+              Mon–Fri 8:00–17:00 · Sat 9:00–13:00
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Send us a message</h3>
+            <p>Fields marked * are required. We reply within 24 hours.</p>
+
+            <form class="mini-form" action="#" method="post">
+
+              <fieldset>
+                <legend>Your details</legend>
+
+                <div>
+                  <label for="Name">Full name *</label>
+                  <input id="Name" name="name" type="text"
+                         autocomplete="name" required>
+                </div>
+
+                <div>
+                  <label for="Email">Email address *</label>
+                  <input id="Email" name="email" type="email"
+                         autocomplete="email"
+                         placeholder="you@marvin.com" required>
+                </div>
+
+                <div>
+                  <label for="cPhone">Phone number *</label>
+                  <input id="cPhone" name="phone" type="tel"
+                         autocomplete="tel"
+                         pattern="[0-9+\s\-()]{7,15}"
+                         placeholder="+256 755 630074" required>
+                </div>
+              </fieldset>
+
+     
+              <fieldset>
+                <legend>Your enquiry</legend>
+
+                <div>
+                  <label for="Subject">Subject *</label>
+                  <select id="Subject" name="subject" required>
+                    <option value="">Select a topic…</option>
+                    <option>Admissions</option>
+                    <option>Fees &amp; payments</option>
+                    <option>Academic programmes</option>
+                    <option>Boarding</option>
+                    <option>General enquiry</option>
+                  </select>
+                </div>
+
+                <fieldset class="radio-group">
+                  <legend>Preferred contact method *</legend>
+                  <div class="radio-group__options">
+                    <label><input type="radio" name="contactMethod" value="email" required> Email</label>
+                    <label><input type="radio" name="contactMethod" value="phone"> Phone call</label>
+                    <label><input type="radio" name="contactMethod" value="either" checked> Either</label>
+                  </div>
+                </fieldset>
+
+                <div>
+                  <label for="VisitDate">Preferred visit date (optional)</label>
+                  <input id="VisitDate" name="visitDate" type="date">
+                </div>
+
+                <div>
+                  <label for="Message">Message *</label>
+                  <textarea id="Message" name="message" rows="5"
+                            minlength="10" required></textarea>
+                </div>
+              </fieldset>
+
+              <button class="btn btn--primary" type="submit">Send message</button>
+              <p class="fine">We respect your privacy. Your message goes only to the school office.</p>
+            </form>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class=" block bg-soft">
+      <div class="container">
+
+        <div class="section-head">
+          <span class="kicker">Find Us</span>
+          <h2>Our location</h2>
+          <p>We're on the Kampala–Gulu Road, easy to reach by car or public transport.</p>
+        </div>
+
+        <div class="card">
+          <iframe
+            title="Map showing Bright High School Luwero"
+            loading="lazy"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=32.42%2C0.78%2C32.52%2C0.86&amp;layer=mapnik&amp;marker=0.82%2C32.47">
+          </iframe>
+
+          <p class="fine text-center">
+            Plot 14, Kampala–Gulu Road, Luwero District, Uganda
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="cta-band" aria-labelledby="cta-title-contact">
+      <div class="container">
+        <h2 id="cta-title-contact">Ready to join us?</h2>
+        <p>Start your application online, or explore our programmes and student life pages.</p>
+        <a class="btn btn--primary" href="admissions.html">Start your application</a>
+        <a class="btn btn--outline" href="services.html">View our programmes</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+
+      <div>
+        <a class="brand" href="index.html">
+          <span class="brand__mark">B</span>
+          Bright High School Luwero
+        </a>
+        <p>Nurturing confident, capable learners in the heart of Luwero since 2003.</p>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Programmes</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="student-life.html">Student Life</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="media.html">Media</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Admissions</h3>
+        <ul>
+          <li><a href="admissions.html#steps">How to Apply</a></li>
+          <li><a href="admissions.html#requirements">Entry Requirements</a></li>
+          <li><a href="admissions.html#fees">Fees</a></li>
+          <li><a href="faq.html">Frequently Asked Questions</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="tel:+256755630074">+256 755 630074</a></li>
+          <li><a href="mailto:info@brighthighluwero.ac.ug">info@brighthighluwero.ac.ug</a></li>
+          <li>Plot 14, Kampala–Gulu Road, Luwero</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="container foot-bottom">
+      <span>© 2026 Bright High School Luwero. All rights reserved.</span>
+      <span><a href="faq.html">Help &amp; FAQs</a></span>
+    </div>
+  </footer>
+
+</body>
+</html>
