@@ -364,8 +364,10 @@ a, .btn, .card, .nav__links a,
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 10px;
   min-height: 72px;
+   padding:0;
+   
 }
 
 .brand {
@@ -1388,4 +1390,8 @@ html[data-theme="dark"] .staff-table tbody tr:nth-child(even),
 html[data-theme="dark"] .staff-table tfoot th,
 html[data-theme="dark"] .staff-table tfoot td {
   background: #142238;
+}
+@media(max-width:768px){
+   nav ul{ flex-direction:column;}
+   nav a{ display:block; padding:10px}
 }
