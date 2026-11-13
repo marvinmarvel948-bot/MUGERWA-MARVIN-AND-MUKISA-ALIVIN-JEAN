@@ -1394,7 +1394,15 @@ html[data-theme="dark"] .staff-table tfoot th,
 html[data-theme="dark"] .staff-table tfoot td {
   background: #142238;
 }
+nav ul{
+   display:flex;
+   flex-dircetion:row;
+   flex-wrap:wrap;
+   gap:8px 14px;
+   padding:0;
+   list-style:none;
+}
 @media(max-width:768px){
    nav ul{ flex-direction:row;}
-   nav a{ display:block; padding:6px 8px}
+   nav a{ display:block; padding:6px 8px font-size:14px}
 }
