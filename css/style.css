@@ -397,6 +397,9 @@ a, .btn, .card, .nav__links a,
   flex-wrap: wrap;
   align-items: center;
   gap: clamp(12px, 2vw, 26px);
+   padding:0;
+   list-style:none;
+   flex-direction:row;
 }
 
 .nav__links a {
@@ -1393,5 +1396,5 @@ html[data-theme="dark"] .staff-table tfoot td {
 }
 @media(max-width:768px){
    nav ul{ flex-direction:row;}
-   nav a{ display:block; padding:10px}
+   nav a{ display:block; padding:6px 8px}
 }
